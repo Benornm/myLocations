@@ -24,10 +24,11 @@ class Footer extends Component {
   }
 
   render() {
+    const { selectedIndex } = this.state;
 
     return (
       <Paper zDepth={1}>
-        <BottomNavigation selectedIndex={this.state.selectedIndex}>
+        <BottomNavigation selectedIndex={ selectedIndex }>
           <BottomNavigationItem
             label="Categories"
             icon={categoriesIcon}

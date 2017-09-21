@@ -32,12 +32,14 @@ class App extends React.Component {
   }
 
     render() {
-        if(!this.state.isReady){
-          return <h1>Loading...</h1>
-        }
-        return (
-            <Main/>
-        );
+    const {isReady} = this.state;
+
+      if(!isReady){
+        return <h1>Loading...</h1>
+      }
+      return (
+          <Main/>
+      );
     }
 }
 

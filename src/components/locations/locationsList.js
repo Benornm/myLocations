@@ -133,7 +133,9 @@ class LocationsList extends React.Component {
   };
 
   showAll() {
-    if (this.state.categoryIdFilter !== SHOW_ALL) {
+    const { categoryIdFilter } = this.state;
+
+    if (categoryIdFilter !== SHOW_ALL) {
       this.handleFilter(null, null, SHOW_ALL);
     }
   }
@@ -173,11 +175,13 @@ class LocationsList extends React.Component {
   }
 
   checkBox() {
+    const { multipleCategories } = this.state;
+
     return (
       <div className={isMobile ? "checkBoxContainerMobile" : "checkBoxContainer"}>
         <Checkbox
           label="Add to multiple categories"
-          checked={ this.state.multipleCategories }
+          checked={ multipleCategories }
           onCheck={ this.updateCheck.bind(this) }
           style={{fontSize: 12}}
         />
@@ -247,6 +251,7 @@ class LocationsList extends React.Component {
   }
 
   _listGrid() {
+    const { categoryName, isLocationsListGrouped , sortedData } = this.state;
     const {width, padding, cellHeight} = this.props;
 
     return (
@@ -258,9 +263,9 @@ class LocationsList extends React.Component {
                 onEdit={ this.onEditClick }
                 onDelete={ this.handleDelete }
                 onTileClick={ this.handleTileClick }
-                listTitle={this.state.categoryName}
-                locationsList={this.state.isLocationsListGrouped}
-                data={this.state.sortedData ? this.state.sortedData : this.props.locationsData}/>
+                listTitle={categoryName}
+                locationsList={isLocationsListGrouped}
+                data={sortedData ? sortedData : this.props.locationsData}/>
     );
   }
 

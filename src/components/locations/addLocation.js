@@ -97,7 +97,8 @@ class AddLocation extends React.Component {
 
 
   validateAll(){
-    const { categoryId } = this.state;
+    const { categoryId  } = this.state;
+    const { notChangedValid } = this.state.validations;
     const name = this.refs.name.getValue();
     const subtitle = this.refs.subtitle.getValue();
     const lat = this.refs.lat.getValue();
@@ -142,7 +143,8 @@ class AddLocation extends React.Component {
           subtitleValid,
           latValid,
           lngValid,
-          categoryIdValid
+          categoryIdValid,
+          notChangedValid
         }});
     return validForm;
   }
