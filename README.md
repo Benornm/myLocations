@@ -19,3 +19,10 @@ Task List :
 14. Bonus:  allow selecting the coordinates from the map service and not entering by hand -DONE.
 15. Bonus: allow relating multiple categories to a single item, define and enhance the use cases and ui related to this -DONE.(If you activate the checkbox 'Add  to multiple categpories', so you will be able to add one locatione to multiple categories).
 
+# Installation
+1. Clone the branch
+2. Cd to the project folder.
+3. Hit 'npm install' for node_modules.
+4. Hit 'npm start'
+
+
