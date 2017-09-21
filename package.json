@@ -1,0 +1,33 @@
+{
+  "name": "my-locations",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "google-maps-react": "^1.1.0",
+    "history": "^4.7.2",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.19.1",
+    "node-sass": "^4.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-google-maps": "^8.2.0",
+    "react-places-autocomplete": "^5.4.3",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "redux-immutablejs": "0.0.8",
+    "redux-persist": "^4.9.1",
+    "redux-persist-immutable": "^4.3.1",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

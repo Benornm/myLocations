@@ -1,0 +1,30 @@
+.topToolBar{
+    height: 60px;
+}
+
+.topToolBar:hover{
+    cursor:pointer;
+}
+
+.mapContainer{
+    width: 40%;
+    background-color: #EEEEEE;
+}
+
+.categoriesAndLocationsContainer{
+    width: 60% ;
+    background-color: #EEEEEE ;
+    overflow: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

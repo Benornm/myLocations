@@ -1,0 +1,46 @@
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gridListContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-top:20px;
+    text-align: center;
+}
+
+.categoryHeader{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.tile{
+    border:1px solid black;
+}
+
+.tile:hover{
+    cursor: pointer;
+}
+
+.fullWidth{
+    width:100%;
+}
+
+.subTitleContainer{
+    margin-top: 5px;
+}
+
+.empty_font{
+    font-size:25px;
+    font-weight: bold;
+}

@@ -1,0 +1,101 @@
+.locationsContainer{
+    display:flex ;
+    justify-content:center ;
+    margin-top:10px;
+    width:100%;
+}
+
+.addLocationsContainer{
+    display:flex ;
+    align-items:center ;
+    height:auto;
+    flex-direction:column;
+    justify-content:center ;
+    width:100%;
+}
+
+.filterAndSortContainer{
+    display:flex ;
+    flex-direction:row;
+    width:100%;
+    justify-content: center;
+}
+
+.filterAndSortContainerMobile{
+    width:100%;
+}
+
+.checkBoxContainer{
+    width:100%;
+    display:flex ;
+    justify-content:center ;
+    align-items:center ;
+    margin-left:50%;
+}
+
+.checkBoxContainerMobile{
+    width:100%;
+}
+
+
+.formContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+    height:200px;
+    width:100%
+}
+
+.addLocationButtonContainer{
+    display:flex;
+    flex-direction: column ;
+    align-items:center;
+    font-size: 12px;
+
+
+}
+
+.nameAndLocationContainer{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:8px;
+    width: 100%;
+    justify-content: center;
+}
+
+.coordinatesContainer{
+    margin-top:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width: 100%;
+    justify-content: center;
+}
+
+.buttonsContainer{
+    display:flex ;
+    flex-direction:row;
+    margin-top:10px ;
+    margin-bottom:10px;
+}
+
+.selectField{
+    width: 250px;
+}
+
+.button{
+    margin: 12px;
+}
+
+.sortButton{
+    margin:10px;
+    width:30px;
+}
+
+.toSortText{
+    font-size: 12px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
